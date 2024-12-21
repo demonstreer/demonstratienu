@@ -12,7 +12,7 @@ description = "Spontane demonstraties zijn energiek en effectief. Je mag in Nede
         postCSS = "assets/css/tailwind.css"
 
 [params]
-    ogImage = "/image/placard.png"
+    ogImage = "/images/placard.png"
     ogImageAlt = "Lijntekening van een persoon met een bord, waarop staat 'Demonstreer spontaan'"
     description = "Spontane demonstraties zijn energiek en effectief. Je mag in Nederland gewoon spontaan demonstreren. Dus grijp die kans, demonstreer spontaan!"
 
