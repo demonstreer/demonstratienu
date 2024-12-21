@@ -9,9 +9,10 @@
     <title>Demonstreer spontaan!</title>
     <meta property="og:title" content="Demonstreer spontaan!" />
     <meta property="og:url" content="//localhost:1313/" />
-    <meta property="og:image" content="/image/placard.png" />
+    <meta property="og:image" content="/images/placard.png" />
     <meta property="og:image:alt" content="Lijntekening van een persoon met een bord, waarop staat &#39;Demonstreer spontaan&#39;" />
     <meta property="og:description" content="Spontane demonstraties zijn energiek en effectief. Je mag in Nederland gewoon spontaan demonstreren. Dus grijp die kans, demonstreer spontaan!" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
@@ -148,7 +149,7 @@
       <div class="lg:pr-8 lg:pt-4">
         <div class="lg:max-w-lg">
             <h2 id="gerechtvaardigd" class="text-xl font-display font-semibold text-orange-600">sta in je recht</h2>
-            <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Mag je spontaan demonstreren?</p>
+            <p class="mt-2 text-pretty text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900">Mag je spontaan demonstreren?</p>
             <p class="mt-6 text-lg/8 text-gray-700">Ja, je mag in Nederland spontaan demonstreren.</p>
             <p class="mt-6 text-lg/8 text-gray-700">Soms wil je gewoon spontaan met andere mensen de straat op. Die mogelijkheid is erg belangrijk in een vrije samenleving. Het recht op openbaar samenkomen is vastgelegd in het <a class="text-orange-600 underline underline-offset-2 decoration-2 decoration-orange-600 hover:text-orange-700 hover:decoration-orange-700" href="https://wetten.overheid.nl/jci1.3:c:BWBV0001000&titeldeel=I&artikel=11&z=2021-08-01&g=2021-08-01">Europees Verdrag voor de Rechten van de Mens, artikel 11</a>. Dat verdrag beschermt ook demonstraties die je niet van tevoren aankondigt bij je gemeente.</p>
             <p class="mt-6 text-lg/8 text-gray-700">Dus je mag in Nederland gewoon spontaan demonstreren. Grijp die kans!</p>
@@ -169,17 +170,31 @@
         <section>
             <div class="bg-green-900 py-12 sm:py-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 id="ondersteund-door" class="text-center text-2xl font-bold text-slate-100  mb-6">Je bent in goed gezelschap</h2>
+        <h2 id="ondersteund-door" class="text-center text-pretty text-4xl font-semibold tracking-tight text-slate-100 mb-6">Je bent in goed gezelschap</h2>
         <p class="text-center max-w-2xl mx-auto text-lg/8 text-slate-100 mb-10">Spontaan demonstreren wordt ondersteund door de meest vooruitstrevende groepen in Nederland.</p>
         <div class="mt-10">
             <ul class="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
               <li>
-                <a href="https://extinctionrebellion.nl/community/justice-now/" class="col-span-2 lg:col-span-1"><img class="max-h-28 w-auto object-contain lg:col-span-1 rounded-lg hover:brightness-75 rotate-3" src="/images/logo-XR-justice-now.jpg" alt="Logo Extinction Rebellion Justice Now!" height="48"></a>
+                <a href="https://extinctionrebellion.nl/community/justice-now/" class="col-span-2 lg:col-span-1 relative group">
+                  <img class="max-h-28 w-auto object-contain rounded-lg hover:grayscale rotate-3" 
+                  src="/images/logo-XR-justice-now.jpg" 
+                  alt="Logo Extinction Rebellion Justice Now!" 
+                  height="48">
+                <span class="absolute inset-0 bg-orange-600 mix-blend-color opacity-0 group-hover:opacity-100 rounded-lg transition-opacity rotate-3"></span>
+              </a>
               </li>
               <li>
-                <a href="https://migreat.org/nl" class="col-span-2 lg:col-span-1"><img class="max-h-28 w-auto object-contain rounded-lg hover:brightness-75 -rotate-6" src="/images/logo-migreat.png" alt="Logo Migreat"></a></li>
+                <a href="https://migreat.org/nl" 
+                class="col-span-2 lg:col-span-1 relative group">
+                <img class="max-h-28 w-auto object-contain rounded-lg hover:grayscale -rotate-6" src="/images/logo-migreat.png" alt="Logo Migreat">
+                <span class="absolute inset-0 bg-orange-600 mix-blend-color opacity-0 group-hover:opacity-100 rounded-lg transition-opacity -rotate-6"></span>
+              </a>
+              </li>
               <li>
-                <a href="https://www.platformstopracisme.nl" class="col-span-2 lg:col-span-2"><img class="max-h-24 w-auto object-contain lg:col-span-1 rounded-lg hover:brightness-75 rotate-6" src="/images/logo-platform-stop-racisme.png" alt="Logo Platform Stop Racisme en Fascisme"></a>
+                <a href="https://www.platformstopracisme.nl"                class="col-span-2 lg:col-span-2 relative group">
+                  <img class="max-h-24 w-auto object-contain p-2 bg-white rounded-lg hover:grayscale rotate-6" src="/images/logo-platform-stop-racisme.png" alt="Logo Platform Stop Racisme en Fascisme">
+                  <span class="absolute inset-0 bg-orange-600 mix-blend-color opacity-0 group-hover:opacity-100 rounded-lg transition-opacity rotate-6"></span>
+                </a>
             </li>
             <li>
                 <a href="https://www.instagram.com/alkmaarvoorpalestina/" class="block max-h-20 max-w-sm p-4 bg-amber-100 border border-gray-200 rounded-lg shadow col-span-2 lg:col-span-1 items-center rotate-6">
@@ -187,10 +202,17 @@
                </a>
              </li>
               <li>
-                <a href="https://www.instagram.com/week.4palestinenl" class="col-span-2 lg:col-span-1"><img class="max-h-28 w-auto object-contain rounded-lg hover:brightness-75 -rotate-3" src="/images/logo-week4palestine.jpg" alt="Logo Week 4 Palestine NL"></a></li>
+                <a href="https://www.instagram.com/week.4palestinenl" 
+                class="col-span-2 lg:col-span-1 relative group">
+                <img class="max-h-28 w-auto object-contain rounded-lg hover:grayscale -rotate-3" src="/images/logo-week4palestine.jpg" alt="Logo Week 4 Palestine NL">
+                <span class="absolute inset-0 bg-orange-600 mix-blend-color opacity-0 group-hover:opacity-100 p-2 rounded-lg transition-opacity -rotate-3"></span>
+              </a></li>
             </li>
               <li>
-                <a href="https://www.instagram.com/zaankanters4palestine/" class="col-span-2 lg:col-span-1 items-center"><img class="max-h-28 w-auto object-contain rounded-lg hover:brightness-75 -rotate-12" src="/images/logo-zaankanters-voor-palestina.jpg" alt="Logo Zaankanters voor Palestina"></a>
+                <a href="https://www.instagram.com/zaankanters4palestine/" class="col-span-2 lg:col-span-1 items-center relative group">
+                  <img class="max-h-28 w-auto object-contain rounded-lg hover:brightness-75 -rotate-12" src="/images/logo-zaankanters-voor-palestina.jpg" alt="Logo Zaankanters voor Palestina">
+                  <span class="absolute inset-0 bg-orange-600 mix-blend-color opacity-0 group-hover:opacity-100 p-2 rounded-lg transition-opacity -rotate-12"></span>
+                </a>
             </li>
             <li>
               <a href="#doe-mee" class="block max-h-20 max-w-sm p-4 border border-2 border-dashed border-amber-100 rounded-lg shadow col-span-2 lg:col-span-1 items-center hover:bg-orange-600 -rotate-3">
