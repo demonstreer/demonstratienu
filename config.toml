@@ -1,0 +1,57 @@
+# baseURL = ''
+languageCode = 'nl'
+title = 'Demonstreer spontaan!'
+author = 'Werkgroep Spontane Demonstratie'
+description = "Spontane demonstraties zijn energiek en effectief. Je mag in Nederland gewoon spontaan demonstreren. Dus grijp die kans, demonstreer spontaan!"
+defaultContentLanguage = "nl"
+
+[assetTypes]
+    css = "text/css"
+
+[markup]
+    [markup.styles]
+        postCSS = "assets/css/tailwind.css"
+
+[params]
+    ogImage = "/images/placard.png"
+    ogImageAlt = "Lijntekening van een persoon met een bord, waarop staat 'Demonstreer spontaan'"
+    description = "Spontane demonstraties zijn energiek en effectief. Je mag in Nederland gewoon spontaan demonstreren. Dus grijp die kans, demonstreer spontaan!"
+
+[params.meta]
+    favicon = true
+
+[languages]
+    [languages.nl]
+        languageName = "Nederlands"
+        languageCode = "nl"
+        weight = 1
+        
+    [languages.en]
+        languageName = "English"
+        languageCode = "en"
+        weight = 2
+    
+    # [languages.fy]
+    #     languageName = "Frysk"
+    #     languageCode = "fy"
+    #     weight = 3
+
+    # [languages.li]
+    #     languageName = "Limburgs"
+    #     languageCode = "li"
+    #     weight = 4
+    
+    # [languages.tr]
+    #     languageName = "Türkçe"
+    #     languageCode = "tr"
+    #     weight = 5
+
+    # [languages.ar]
+    #     languageName = "عربي"
+    #     languageCode = "ar"
+    #     weight = 6
+
+    # [languages.pa]
+    #     languageName = "Papiamentu"
+    #     languageCode = "pa"
+    #     weight = 7

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="{{ .Lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.counter.dev/script.js" data-id="469b7c4c-5991-4c58-b11d-f1006358d0f9" data-utcoffset="1"></script>
     <link rel="stylesheet" href="/css/main.css">
-    <title>{{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Site.Title }}" />
+    <title>{{ i18n "title" }}</title>
+    <meta property="og:title" content="{{ i18n "title" }}" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:image" content="{{ .Site.Params.ogImage }}" />
     <meta property="og:image:alt" content="{{ .Site.Params.ogImagealt }}" />
     <meta property="og:description" content="{{ .Site.Params.Description }}" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<!-- {{ partial "head.html" }} -->
 <body>
-    {{ partial "hero.html" }}
     <main>
+        {{ partial "language-switcher.html" . }}
+        {{ partial "hero.html" }}
         <section>
             {{ partial "definition.html" }}
         </section>
