@@ -3,19 +3,19 @@
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-4xl lg:grid-cols-2">
       <div class="lg:pr-8 lg:pt-4">
         <div class="lg:max-w-lg">
-            <h2 id="gerechtvaardigd" class="text-xl font-display font-semibold text-orange-600">sta in je recht</h2>
-            <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Mag je spontaan demonstreren?</p>
-            <p class="mt-6 text-lg/8 text-gray-700">Ja, je mag in Nederland spontaan demonstreren.</p>
-            <p class="mt-6 text-lg/8 text-gray-700">Soms wil je gewoon spontaan met andere mensen de straat op. Die mogelijkheid is erg belangrijk in een vrije samenleving. Het recht op openbaar samenkomen is vastgelegd in het <a class="text-orange-600 underline underline-offset-2 decoration-2 decoration-orange-600 hover:text-orange-700 hover:decoration-orange-700" href="https://wetten.overheid.nl/jci1.3:c:BWBV0001000&titeldeel=I&artikel=11&z=2021-08-01&g=2021-08-01">Europees Verdrag voor de Rechten van de Mens, artikel 11</a>. Dat verdrag beschermt ook demonstraties die je niet van tevoren aankondigt bij je gemeente.</p>
-            <p class="mt-6 text-lg/8 text-gray-700">Dus je mag in Nederland gewoon spontaan demonstreren. Grijp die kans!</p>
+            <h2 id="gerechtvaardigd" class="text-xl font-display font-semibold text-orange-600">{{ i18n "rights" }}</h2>
+            <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{{ i18n "rights_title" }}</p>
+            <p class="mt-6 text-lg/8 text-gray-700">{{ i18n "rights_description_pt1" }}</p>
+            <p class="mt-6 text-lg/8 text-gray-700">{{ i18n "rights_description_pt2" }}<a class="text-orange-600 underline underline-offset-2 decoration-2 decoration-orange-600 hover:text-orange-700 hover:decoration-orange-700" href="https://wetten.overheid.nl/jci1.3:c:BWBV0001000&titeldeel=I&artikel=11&z=2021-08-01&g=2021-08-01">{{ i18n "rights_description_law" }}</a> {{ i18n "rights_description_pt4" }}</p>
+            <p class="mt-6 text-lg/8 text-gray-700">{{ i18n "rights_description_pt5" }}</p>
           </div>
           <div class="mt-10 flex items-center gap-x-6">
             <a href="#doe-mee" class="px-6 py-3 font-mono uppercase text-white bg-orange-600 rounded-md text-lg hover:bg-orange-700">
-              Doe mee
+              {{ i18n "join" }}
             </a>
           </div>
         </div>
-        <img src="/images/placard.png" alt="Een persoon met gezichtsmasker, het haar in twee vlechten, een spijkerjasje aan houdt een bord vast met daarop de woorden Demonstreer Spontaan" class="w-full sm:w-[48rem] max-w-none rounded-xl sm:mr-12 lg:mr-40">
+        <img src="/images/placard.png" alt="{{ i18n "person_drawing" }}" class="w-full sm:w-[48rem] max-w-none rounded-xl sm:mr-12 lg:mr-40">
       </div>
     </div>
   </div>

@@ -1,0 +1,19 @@
+<!-- <ul>
+    {{ range $.Site.Home.AllTranslations }}
+    <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+    {{ end }}
+</ul> -->
+
+<div class="bg-amber-100 flex justify-end p-4 ml-auto">
+    <select onchange="window.location.href=this.value" class="font-mono text-lg bg-white border border-gray-300 text-gray-800 py-2 px-4 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 sm:w-48 lg:w-56 xl:w-64">
+        {{ range $.Site.Home.AllTranslations }}
+            <option value="{{ .RelPermalink }}" 
+                {{ if eq .Lang $.Site.Language.Lang }}selected{{ end }}>
+                {{ .Language.LanguageName }}
+            </option>
+        {{ end }}
+    </select>
+</div>
+
+
+  
